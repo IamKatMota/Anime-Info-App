@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Information App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Anime Information App</h1>
+        <input type="text" id="animeInput" placeholder="Enter anime name">
+        <button onclick="getAnime()">Get Anime Info</button>
+        <div id="animeResult" class="anime-info">
+            <h2 id="animeTitle"></h2>
+            <img id="animeImage" src="" alt="Anime Image">
+            <p id="animeSynopsis"></p>
+            <p id="animeEpisodes"></p>
+            <p id="animeScore"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
